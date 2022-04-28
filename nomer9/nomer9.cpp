@@ -18,7 +18,7 @@ int main() {
 	P[6] = new CountryHouse(100000);
 	for (int i = 0; i < 7; i++)
 	{
-		cout << "Величина налога для объекта №" << i+1 << " = " << P[i]->calculation() << endl;
+		cout << "Nalog" << i+1 << " = " << P[i]->calculation() << endl;
 	}
 	delete *P;
 	return 0;
